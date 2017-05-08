@@ -1,6 +1,7 @@
 public class Player1 {
 	int x, y = 0;
-	int width, height = 50;
+	int width = 25;
+	int height = 75;
 	
 	public Player1(int x, int y, int width, int height) {
 		this.x = x;
@@ -33,7 +34,7 @@ public class Player1 {
 	public int changePlayerY(int amountToChange) {
 		this.y += amountToChange;
 
-		return this.x;
+		return this.y;
 	}
 
 
